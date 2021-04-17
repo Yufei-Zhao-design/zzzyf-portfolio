@@ -1143,3 +1143,14 @@ ol {margin-bottom:0px;}
   .p1 {padding-left:50px;
   padding-right: 50px;}
 
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
